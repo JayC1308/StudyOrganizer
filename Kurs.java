@@ -31,7 +31,7 @@ public class Kurs {
   public void ausgabe() {
     System.out.println("=== Kursinformationen ===");
     System.out.println("Name: " + name);
-    System.out.println("Kursnummer: " + kNr);
+    System.out.println("Kursnummer: " + KNr);
     System.out.println("ECTS: " + ects);
     System.out.println("Dozent: " + dozent);
     System.out.println("E-Mail Dozent: " + emailDozent);
@@ -50,7 +50,7 @@ public class Kurs {
   }
 
   public int getKNr() {
-    return kNr;
+    return KNr;
   }
 
   public int getEcts() {
