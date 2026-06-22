@@ -16,7 +16,7 @@ public class Kurs {
   int semester, String vorlesungsart, String raum, String gebaeude,
   String wochentag, String uhrzeit) {
     this.name = name;
-    this.kNr = kNr;
+    this.KNr = KNr;
     this.ects = ects;
     this.dozent = dozent;
     this.emailDozent = emailDozent;
