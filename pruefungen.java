@@ -12,7 +12,7 @@ public class pruefungen{
   private int anmeldefristJahr;  
   private int uhrzeitH;
   private int uhrzeitMin;
-  public pruefungen (String m, int r, String p, int dTag, int dMonat, int dJahr, int aTag, int aMonat, int aJahr, int uH, int uMin){
+  public pruefungen (int m, int r, String p, int dTag, int dMonat, int dJahr, int aTag, int aMonat, int aJahr, int uH, int uMin){
     KNr = m;
     raum = r;
     pruefer = p;
