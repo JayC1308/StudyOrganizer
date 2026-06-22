@@ -57,7 +57,7 @@ public class pruefungen{
   public void Timer() {
     LocalDate heute = LocalDate.now();
     LocalTime jetzt = LocalTime.now();
-    if (heute.getMonthValue()<datumMonat && heute.getDayOfMonth() < datumTag||heute.getYear()<datumJahr&&(heute.getDayOfMonth()<datumTag||heute.getMonthValue+1<datumMonat||heute.getMonthValue-1>datumMonat)||heute.getMonthValue()+1<datumMonat) {
+    if (heute.getMonthValue()<datumMonat && heute.getDayOfMonth() < datumTag||heute.getYear()<datumJahr&&(heute.getDayOfMonth()<datumTag||heute.getMonthValue()+1<datumMonat||heute.getMonthValue()-1>datumMonat)||heute.getMonthValue()+1<datumMonat) {
       System.out.println("Noch über ein Monat bis zur Prüfung");
     } else {
       if (heute.getDayOfMonth()!=datumTag) {
